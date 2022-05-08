@@ -1,6 +1,6 @@
 import Cookies from "js-cookie";
 
-  export const URL = "https://ecommerse-8znkch2pa-m98abas.vercel.app";
+export const URL = "https://ecommerse-8znkch2pa-m98abas.vercel.app";
 
 export const ApiLogin = (info: any, callback: any) => {
   // console.log(info);
