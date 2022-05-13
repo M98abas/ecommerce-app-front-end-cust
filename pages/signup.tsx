@@ -18,6 +18,7 @@ const register = () => {
       { email, fullname, city, address, phone, password },
       (data: any, error: any) => {
         if (error) return alert(error);
+        console.log(data);
         Cookies.set("registerToken", data.token);
         router.push("/login");
       }
